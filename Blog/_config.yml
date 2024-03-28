@@ -3,22 +3,13 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
-keywords:
-author: John Doe
-language: en
-timezone: ''
-
-# URL
-## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
-permalink: :year/:month/:day/:title/
-permalink_defaults:
-pretty_urls:
-  trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
-  trailing_html: true # Set to false to remove trailing '.html' from permalinks
+title: 番茄的博客
+subtitle: '欢迎来到番茄的博客'
+description: '仅仅作为一个记录'
+keywords: '欢迎来到番茄的博客'
+author: Redtomato
+language: zh-CN
+timezone: 'Asia/Shanghai'
 
 # Directory
 source_dir: source
@@ -96,9 +87,27 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: butterfly
+
+# URL
+## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
+## github发布
+url: https://IndigoB1ue.github.io
+## gitee发布
+# url: https://redtomato.gitee.io
+permalink: :year/:month/:day/:title/
+permalink_defaults:
+pretty_urls:
+  trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
+  trailing_html: true # Set to false to remove trailing '.html' from permalinks
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  ## github发布
+  repository: git@github.com:IndigoB1ue/mysite-autodeploy.git
+  branch: main
+  ## gitee发布
+  # repository: git@gitee.com:tomato-tom4to/redtomato.gitee.io.git
+  # branch: master
