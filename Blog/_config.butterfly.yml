@@ -38,7 +38,6 @@ code_word_wrap: false
 # formal:
 #   icon: link || the description || color
 social:
-social:
   fab fa-github: https://github.com/IndigoB1ue || Github || '#24292e'
   fas fa-envelope: mailto:739234627@qq.com || Email || '#4a7dbe'
 
