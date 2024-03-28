@@ -212,9 +212,10 @@ noticeOutdate:
 footer:
   owner:
     enable: true
-    since: 2020
+    since: 2022
   custom_text:
-  copyright: true # Copyright of theme and framework
+  text: 你已到达网站的最底部 <a href="https://butterfly.js.org/">blog</a>! # Copyright of theme and framework
+  ICP: true
 
 # aside (側邊欄)
 # --------------------------------------
@@ -284,8 +285,8 @@ busuanzi:
 # Time difference between publish date and now (網頁運行時間)
 # Formal: Month/Day/Year Time or Year/Month/Day Time
 runtimeshow:
-  enable: false
-  publish_date:
+  enable: true
+  publish_date: 2023/11/26 00:00:00
 
 # Aside widget - Newest Comments
 newest_comments:
