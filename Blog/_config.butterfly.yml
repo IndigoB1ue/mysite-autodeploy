@@ -38,8 +38,8 @@ code_word_wrap: false
 # formal:
 #   icon: link || the description || color
 social:
-  # fab fa-github: https://github.com/xxxxx || Github || '#24292e'
-  # fas fa-envelope: mailto:xxxxxx@gmail.com || Email || '#4a7dbe'
+  fab fa-github: https://github.com/IndigoB1ue || Github || '#24292e'
+  fas fa-envelope: mailto:739234627@qq.com || Email || '#4a7dbe'
 
 # Image (圖片設置)
 # --------------------------------------
@@ -49,7 +49,7 @@ favicon: /img/favicon.png
 
 # Avatar (頭像)
 avatar:
-  img: https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png
+  img: https://cdn.redtomato.fun/tomato-logo.png
   effect: false
 
 # Disable all banner image
@@ -212,9 +212,10 @@ noticeOutdate:
 footer:
   owner:
     enable: true
-    since: 2020
+    since: 2022
   custom_text:
-  copyright: true # Copyright of theme and framework
+  text: 你已到达网站的最底部 <a href="https://butterfly.js.org/">blog</a>! # Copyright of theme and framework
+  ICP: true
 
 # aside (側邊欄)
 # --------------------------------------
@@ -253,7 +254,7 @@ aside:
   card_tags:
     enable: true
     limit: 40 # if set 0 will show all
-    color: false
+    color: true
     orderby: random # Order of tags, random/name/length
     order: 1 # Sort of order. 1, asc for ascending; -1, desc for descending
     sort_order: # Don't modify the setting unless you know how it works
@@ -271,7 +272,6 @@ aside:
     sort_order: # Don't modify the setting unless you know how it works
   card_post_series:
     enable: true
-    series_title: false # The title shows the series name
     orderBy: 'date' # Order by title or date
     order: -1 # Sort of order. 1, asc for ascending; -1, desc for descending
 
@@ -285,8 +285,8 @@ busuanzi:
 # Time difference between publish date and now (網頁運行時間)
 # Formal: Month/Day/Year Time or Year/Month/Day Time
 runtimeshow:
-  enable: false
-  publish_date:
+  enable: true
+  publish_date: 2023/11/26 00:00:00
 
 # Aside widget - Newest Comments
 newest_comments:
