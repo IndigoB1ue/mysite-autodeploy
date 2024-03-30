@@ -38,9 +38,9 @@ code_word_wrap: false
 # formal:
 #   icon: link || the description || color
 social:
-  ri-github-line: https://github.com/IndigoB1ue || Github || '#xEDCB'
-  ri-mail-line: mailto:739234627@qq.com || Email || '#xEEF6'
-  ri-bilibili-line: https://space.bilibili.com/7339013 || BiliBili '#xEAC0'
+  fa-brands fa-github: https://github.com/IndigoB1ue || Github || '#121212'
+  fa-light fa-envelope: mailto:739234627@qq.com || Email || ''
+  fa-brands fa-bilibili: https://space.bilibili.com/7339013 || BiliBili ''
 
 # Image (圖片設置)
 # --------------------------------------
