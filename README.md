@@ -1,2 +1,2 @@
-# mysite-autodeploy
-个人博客网站-自动部署
+# MyBlog
+个人博客网站(自动部署)
