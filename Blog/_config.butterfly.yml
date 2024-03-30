@@ -39,7 +39,7 @@ code_word_wrap: false
 #   icon: link || the description || color
 social:
   fa-brands fa-github: https://github.com/IndigoB1ue || Github || '#121212'
-  fa-light fa-envelope: mailto:739234627@qq.com || Email || ''
+  fa-regular fa-envelope: mailto:739234627@qq.com || Email || ''
   fa-brands fa-bilibili: https://space.bilibili.com/7339013 || BiliBili ||''
 
 # Image (圖片設置)
